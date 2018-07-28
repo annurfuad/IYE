@@ -139,7 +139,7 @@ session_start();
       </div><!-- /.content-wrapper -->
 
       <footer class="main-footer">
-        <strong>Copyright &copy; 2018 - <a href="#">www.iye.com</a>.</strong>
+        <strong>Copyright &copy; 2018 - <a href="#">www.idye.azurewebsites.net</a>.</strong>
       </footer>
     </div><!-- ./wrapper -->
 
@@ -197,7 +197,7 @@ session_start();
           "bSort": true,
           "bInfo": true,
           "bAutoWidth": false
-          
+
           $(".view-button").click(function() {
             var video_url = $(this).attr("data-video-id");
             video_url = "https://youtube.com/embed/" + video_url;
