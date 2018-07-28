@@ -78,7 +78,7 @@
 				<div class="navbar-header">
 					<!-- Logo -->
 					<div class="navbar-brand">
-						<a href="index.html">
+						<a href="#">
 							<img class="logo" src="assets/img/logoiye.png" alt="logo">
 							<img class="logo-alt" src="assets/img/logo-alt.png" alt="logo">
 						</a>
@@ -212,9 +212,9 @@
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="./img/perso1.jpg" alt="">
-								<h3 class="white-text">John Doe</h3>
-								<span>Web Designer</span>
+								<img src="assets/img/alfi.jpeg" alt="">
+								<h3 class="white-text">Alfi Ramdhani</h3>
+								<span>Mahasiswa UHAMKA</span>
 							</div>
 							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
 						</div>
@@ -223,9 +223,9 @@
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="./img/perso2.jpg" alt="">
-								<h3 class="white-text">John Doe</h3>
-								<span>Web Designer</span>
+								<img src="assets/img/zein.jpeg" alt="">
+								<h3 class="white-text">Rizky Zein Adam</h3>
+								<span>Mahasiswa UHAMKA</span>
 							</div>
 							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
 						</div>
@@ -263,18 +263,14 @@
 				<div class="col-sm-4">
 					<div class="team">
 						<div class="team-img">
-							<img class="img-responsive" src="./img/team1.jpg" alt="">
+							<img class="img-responsive" src="assets/img/kolip.jpeg" alt="">
 							<div class="overlay">
-								<div class="team-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-								</div>
+
 							</div>
 						</div>
 						<div class="team-content">
 							<h3>Kholifa Muhasim</h3>
-							<span></span>
+							<span>Vice Project Officer</span>
 						</div>
 					</div>
 				</div>
@@ -284,18 +280,14 @@
 				<div class="col-sm-4">
 					<div class="team">
 						<div class="team-img">
-							<img class="img-responsive" src="assets/img/fuad1.jpg" alt="">
+							<img class="img-responsive" src="assets/img/fuad.jpeg" alt="">
 							<div class="overlay">
-								<div class="team-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-								</div>
+
 							</div>
 						</div>
 						<div class="team-content">
 							<h3>Annur Fuad</h3>
-							<span></span>
+							<span>Project Officer</span>
 						</div>
 					</div>
 				</div>
@@ -305,18 +297,14 @@
 				<div class="col-sm-4">
 					<div class="team">
 						<div class="team-img">
-							<img class="img-responsive" src="./img/team3.jpg" alt="">
+							<img class="img-responsive" src="assets/img/rizal.jpeg" alt="">
 							<div class="overlay">
-								<div class="team-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-								</div>
+
 							</div>
 						</div>
 						<div class="team-content">
 							<h3>Muhammad Rizal Fahmi</h3>
-							<span></span>
+							<span>Vice Project Officer</span>
 						</div>
 					</div>
 				</div>
@@ -349,12 +337,14 @@
 						<span class="help-block" id="error"></span>
 					</div>
 
-					<div class="row">
+
 						<div class="col-md-6 form-group">
 							<i class="fa fa-user"></i>&nbsp;&nbsp;Username
 							<input type="text" name="username" id="username" class="form-control" placeholder="Enter your username" />
 							<span class="help-block" id="error"></span>
 						</div>
+					</div>
+
 
 				<div class="row">
 					<div class="form-group col-md-6">
@@ -386,6 +376,8 @@
 						<button type="submit" name="register" id="btn-signup" class="btn btn-primary">Register</button>
 					</div>
 				</div>
+			</div>
+		</div>
 
 				<div id="errorDiv2"></div>
 
@@ -420,7 +412,6 @@
 						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
 					</ul>
 					<!-- /footer follow -->
