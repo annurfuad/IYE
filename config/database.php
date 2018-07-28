@@ -13,4 +13,4 @@ if ($mysqli->connect_error) {
     die('Koneksi Database Gagal : '.$mysqli->connect_error);
 }
 ?>
-//Database=localdb;Data Source=127.0.0.1:49907;User Id=azure;Password=6#vWHD_$
+<!-- connection string: Database=localdb;Data Source=127.0.0.1:49907;User Id=azure;Password=6#vWHD_$ -->
