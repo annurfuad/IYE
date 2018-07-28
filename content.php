@@ -39,33 +39,15 @@ else {
 	// -----------------------------------------------------------------------------
 
 	// jika halaman konten yang dipilih paket, panggil file view paket
-	elseif ($_GET['module'] == 'paket') {
-		include "modules/paket/view.php";
+	elseif ($_GET['module'] == 'investor') {
+		include "modules/investor/view.php";
 	}
 
 	// jika halaman konten yang dipilih form paket, panggil file form paket
-	elseif ($_GET['module'] == 'form_paket') {
-		include "modules/paket/form.php";
+	elseif ($_GET['module'] == 'form_investor') {
+		include "modules/investor/form.php";
 	}
 	// -----------------------------------------------------------------------------
-
-	// jika halaman konten yang dipilih pengembalian, panggil file view pengembalian
-	elseif ($_GET['module'] == 'pengembalian') {
-		include "modules/pengembalian/view.php";
-	}
-
-	// jika halaman konten yang dipilih form pengembalian, panggil file form Pengembalian
-	elseif ($_GET['module'] == 'form_pengembalian') {
-		include "modules/pengembalian/form.php";
-	}
-	// -----------------------------------------------------------------------------
-
-	// jika halaman konten yang dipilih laporan, panggil file view laporan
-	elseif ($_GET['module'] == 'laporan') {
-		include "modules/laporan/view.php";
-	}
-	// -----------------------------------------------------------------------------
-
 	// jika halaman konten yang dipilih user, panggil file view user
 	elseif ($_GET['module'] == 'user') {
 		include "modules/user/view.php";
